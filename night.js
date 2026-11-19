@@ -1,6 +1,5 @@
 const body = document.getElementById("body");
 const btn = document.getElementById("btn");
-
 const yesBtn = document.getElementById("yes");
 
 btn.addEventListener("mouseover", () => {
@@ -35,7 +34,7 @@ yesBtn.addEventListener("click", () => {
 
 function createHeart() {
     const heart = document.createElement("div");
-    heart.innerHTML = "💞 ";
+    heart.innerHTML = "🐣";
     heart.style.position = "fixed";
     heart.style.fontSize = "21px";
     heart.style.pointerEvents = "none"; 
