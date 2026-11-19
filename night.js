@@ -1,6 +1,6 @@
 const body = document.getElementById("body");
 const btn = document.getElementById("btn");
-alert("hello java  script");
+
 const yesBtn = document.getElementById("yes");
 
 btn.addEventListener("mouseover", () => {
